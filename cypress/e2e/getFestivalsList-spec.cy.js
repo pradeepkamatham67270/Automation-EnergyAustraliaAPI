@@ -14,7 +14,7 @@ describe("(Integration QE role) Create a suite of tests that tests the output of
     festivalEndpoints.getFestivalsList(StatusCodes.NOT_FOUND, 'v2');
   });
   it("Trying to reproduce the Throttled 429 error", () => {
-    cy.reporterLog('Valiate the Throttled status code 429 by running the API call 10 times');
-    festivalEndpoints.validateThrottledCode(StatusCodes.TOO_MANY_REQUESTS);
+    cy.reporterLog('Valiate the Throttled status code 429 by running the API call 15 times');
+    festivalEndpoints.validateThrottledCode();
   });
 });
