@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2022",
+  },
+  "include": [
+    "cypress",
+    "./node_modules/cypress",
+    "cypress/**/*.js",
+    "cypress/**/*.ts"
+  ]
+}

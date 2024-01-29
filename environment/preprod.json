@@ -1,0 +1,9 @@
+{
+ "baseUrl" : "https://eacp.energyaustralia.com.au/codingtest",
+  "env": {
+    "ContentType": "application/json",
+    "festivalAPIversion": "v1",
+    "requestMode": "true"
+  }
+
+}
